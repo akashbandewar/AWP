@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+}
+
+.outer {
+    display: flex;
+    height: 100vh;
+    width: 70vw;
+    padding-left: 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    background: url('https://fsb.zobj.net/crop.php?r=a0uD2sHFQucHt9mFajx0P7Mxp-e3yfz5ROUg-JKHMP9i7PrdiiOQV0jxU8ogGP6g37LrpT7Zh2EvQs7nD-x07coKNQPLa1XJ1hZ0TOft0W2SsKaOfurzWG-dLNgb-OtySvzjf3ut2wS7GkEJ');
+    height: 90vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+}
+
+.title {
+    flex: 1;
+    background: rgb(54, 49, 49);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#back {
+    flex: 0.8;
+    font-size: 150%;
+    text-align: center;
+}
+
+#picture {
+    flex: 1;
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background: url('profilepic.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*
+img {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+}
+*/
+.name {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    padding: 0.7em;
+}
+
+#name {
+    font-size: 120%;
+    flex: 1;
+    text-align: left;
+}
+
+#status {
+    font-size: 80%;
+    flex: 1;
+    text-align: left;
+}
+
+#video {
+    flex: 1;
+    font-size: 150%;
+    text-align: center;
+}
+
+#call {
+    flex: 1;
+    font-size: 150%;
+    text-align: center;
+}
+
+#setting {
+    flex: 1;
+    font-size: 150%;
+    text-align: center;
+}
+
+.chat {
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.type {
+    flex: 1;
+    display: flex;
+    margin-bottom: 0.2em;
+}
+
+#input {
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#id1 {
+    height: 90%;
+    width: 98%;
+    font-size: 120%;
+    border-radius: 2em;
+    padding-left: 0.5em;
+}
+
+#send {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#b {
+    font-size: 160%;
+    text-align: center;
+    color: black;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    background: white;
+}
+
+.main1 {
+    background: url('background.jpeg');
+    height: 90vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+}
+
+#picture1 {
+    flex: 1;
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background: url('Ash.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#status1 {
+    font-size: 80%;
+    flex: 1;
+    text-align: left;
+}
+
+.chat1 {
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.type1 {
+    flex: 1;
+    display: flex;
+    margin-bottom: 0.2em;
+}
+
+#id2 {
+    height: 90%;
+    width: 98%;
+    font-size: 120%;
+    border-radius: 2em;
+    padding-left: 0.5em;
+}
+
+#b1 {
+    font-size: 160%;
+    text-align: center;
+    color: white;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    background: rgb(68, 48, 48);
+}

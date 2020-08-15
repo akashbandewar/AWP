@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+}
+
+.outer {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+}
+
+.title {
+    flex: 1.5;
+    background: rgb(39, 22, 22);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#back {
+    flex: 1;
+    font-size: 250%;
+    text-align: center;
+}
+
+#picture {
+    flex: 2;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background: url('profilepic.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*
+img {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+}
+*/
+.name {
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+#name {
+    font-size: 120%;
+    flex: 1;
+    text-align: left;
+}
+
+#status {
+    font-size: 80%;
+    flex: 1;
+    text-align: left;
+}
+
+#call {
+    flex: 2;
+    font-size: 250%;
+    text-align: center;
+}
+
+#setting {
+    flex: 1;
+    font-size: 250%;
+    text-align: center;
+}
+
+.chat {
+    flex: 10;
+    background: url('https://fsb.zobj.net/crop.php?r=a0uD2sHFQucHt9mFajx0P7Mxp-e3yfz5ROUg-JKHMP9i7PrdiiOQV0jxU8ogGP6g37LrpT7Zh2EvQs7nD-x07coKNQPLa1XJ1hZ0TOft0W2SsKaOfurzWG-dLNgb-OtySvzjf3ut2wS7GkEJ');
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow-y: scroll;
+}
+
+.type {
+    flex: 1.5;
+    display: flex;
+}
+
+#input {
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 90%;
+    width: 98%;
+    font-size: 150%;
+    border-radius: 2em;
+    padding-left: 0.5em;
+}
+
+#send {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 160%;
+    text-align: center;
+}
+
+button {
+    height: 90%;
+    width: 90%;
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <div class="left-top">
+                <div class="bezos">
+                    <img src="cap.jpg" alt="Steve Rogers" height="120em" width="120em"
+                        style="margin: 1em 0em 0em 2em; border-radius: 50%;">
+                </div>
+                <div class=" name">
+                    <div id="name">
+                        <p style="font-size: 120%;">
+                            STEVE <br> ROGERS
+                        </p>
+                        <p style="font-size: 80%;">
+                            Captain America
+                        </p>
+                    </div>
+                </div>
+                <div class="nothing">
+                </div>
+            </div>
+            <div class="left-bottom">
+                <div class="b-left">
+                    <div>
+                        <b>BORN</b> <br> 07/04/1918
+                    </div>
+                    <br>
+                    <div>
+                        <b>CONTACT</b> <br> +1 678-136-7092 <br> cap_rogers@marvel.com
+                    </div>
+                    <br>
+                    <div>
+                        <b>LANGUAGES</b> <br> English, Spanish, French
+                    </div>
+                    <br>
+                    <div>
+                        <b>ALIASES</b> <br>-Steve Rogers
+                        <br>-Captain America
+                        <br>-The Star Spangled Man with a Plan
+                        <br>-Captain Rogers
+                        <br>-Captain Stevens
+                    </div>
+
+                </div>
+                <div class="b-right">
+                    <div>
+                        <h3>About Steve Rogers</h3>
+                        <br>
+                        Captain Steven Grant "Steve" Rogers is the only living, successful test subject of the Super
+                        Soldier Serum developed by Abraham Erskine during World War II, after which the patriotic super
+                        soldier became known as Captain America.
+                    </div>
+                    <br>
+                    <div>
+                        <h3>Making of Captain America</h3> <br>Rogers is a World War II-era U.S. Army soldier who was
+                        given enhanced physical and mental capabilities with a "supersoldier" serum developed by the
+                        military and who was later frozen in ice for nearly seventy years
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="right-top">
+            </div>
+            <div class="right-center">
+                <div class="b-left">
+                    <div>
+                        <b>HOBBIES</b> <br> Running, Swimming, Cuba Diving, Lift Fights, Living in box of FROZEN ICE
+                    </div>
+                    <br>
+                    <div>
+                        <b>SPORTS</b> <br> Martial Arts, Boxing, Street Fight
+                    </div>
+                    <br>
+                    <div>
+                        <b>LAST SEEN</b> <br> At Tony Stark aka Iron Man's Funeral
+                    </div>
+
+                    <br>
+                    <div>
+                        <b>ACHIEVEMENTS</b> <br> Saved the world N number of times
+                    </div>
+                </div>
+                <div class="b-right">
+                    <div>
+                        <h3>Finished Project during 2019</h3> <br> Last project of Steve Rogers was Avengers: End Game.
+                        He has disappeared after that project. After losing Tony Stark, He was finding difficulties to
+                        carry on as Captain of Avengers. He has played a vital
+                        role in winning the battle against the Army of Thanos, As Steve Rogers was the one who
+                        <b>ASSEMBLED</b> The Avengerss.
+                    </div>
+                    <br>
+                    <div>
+                        <h3>What's Next</h3> <br> Steve Rogers is highly expected to be seen in the project Black Widow.
+                        Steve Rogers play a vital role in black widow's life. So, it is believed that he will play the
+                        vital role in this project.
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <div class="right-bottom">
+                <div class="b-left">
+                    <pre>
+Web Page Developed by:
+<h4>AKASH BANDEWAR</h4>                    
+                    </pre>
+                </div>
+                <div class="b-right">
+                    <pre>
+CONTACT:
+<h4>9834131178
+akash.adb@gmail.com
+</h4>                    
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+------------------------------------------------------
+
+* {
+    margin: 0px;
+}
+
+.main {
+    display: flex;
+    background: rgba(236, 231, 231, 0.7);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.left .left-top {
+    height: 30%;
+}
+
+.left .left-top .bezos {
+    position: absolute;
+    float: left;
+}
+
+.left {
+    background-color: white;
+    height: 90vh;
+    margin: 15vh 5vh 15vh 25vh;
+    flex: 1;
+}
+
+.left .left-top .name {
+    height: 70%;
+    background-color: rgb(247, 173, 185);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left .left-top .name #name {
+    color: pink;
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em;
+    margin-right: 4em;
+    background-image: linear-gradient(to top, rgb(185, 82, 22), rgb(238, 139, 82));
+}
+
+
+
+.left .left-top .nothing {
+    height: 30%;
+    background-color: white;
+}
+
+.left .left-bottom {
+    background-color: white;
+    display: flex;
+    height: 70%;
+}
+
+.b-left {
+    height: 100%;
+    flex: 2;
+    padding: 1em 0 0 1em;
+}
+
+.left .b-left {
+    border-top: solid grey 1px;
+}
+
+b,
+h3 {
+    color: brown;
+}
+
+.b-right {
+    border-left: solid grey 1px;
+    flex: 3;
+    padding: 1em 1em 0 1em;
+}
+
+.left .b-right {
+    border-top: solid grey 1px;
+}
+
+.right {
+    height: 90vh;
+    margin: 15vh 25vh 15vh 5vh;
+    background-color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-top {
+    flex: 1;
+}
+
+.right-center {
+    flex: 10;
+    background-color: white;
+    display: flex;
+    height: 70%;
+}
+
+.right-bottom {
+    flex: 2;
+    background-color: rgb(238, 127, 145);
+    display: flex;
+}
+
+pre {
+    color: white;
+    font-family: cursive;
+}
+
+h4 {
+    font-family: cursive;
+    color: yellow;
+}
